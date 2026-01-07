@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Document</tit5le>
+    <script src="form.js"></script>
+  </head>
+  <body>
+    <form class="formcreation">
+      <label for="username">Username</label>
+      <input type="text" id="username" required /><br /><br />
+
+      <label for="password">Password</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        required
+      /><br /><br />
+
+      <label for="confirm-password">Confirm Password</label>
+      <input
+        type="password"
+        name="confirm-password"
+        id="confirm-password"
+        required
+      /><br /><br />
+      <label for="gender">Gender</label>
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="male">male</label>
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="female">female</label><br /><br />
+      <label for="phone_no">Phone Number</label>
+      <input type="tel" name="phone_no" id="phone_no" required /><br /><br />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required /><br /><br />
+      <label for="dob">Date of Birth</label>
+      <input type="date" name="dob" id="dob" required /><br /><br />
+      <label for="qualification">Qualification</label>
+      <select name="qualification" id="qualification">
+        <option value="BTech">BTech</option>
+        <option value="MTech">MTech</option>
+        <option value="PhD">PhD</option></select
+      ><br />
+      <br />
+      <td>Preferred shift:</td>
+      <br /><br />
+      <label for="dayshift">Dayshift</label>
+      <input type="checkbox" /><br /><br />
+      <label for="nightshift">nightshift</label>
+      <input type="checkbox" /><br /><br />
+      <select name="multiple" id="multiple">
+        <option value="JAVA">JAVA</option>
+        <option value="PYTHON">PYTHON</option>
+        <option value="C++">C++</option></select
+      ><br /><br />
+      <input type="file" name="resume" id="resume" /><br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
